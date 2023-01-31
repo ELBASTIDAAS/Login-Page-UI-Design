@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
 $primary-color: #bfbeca;
 $secondary-color: #1a170c;
@@ -10,7 +10,7 @@ $secondary-color: #1a170c;
 body{
     padding: 0;
     margin: 0;
-    font-family: "Inter", sans-serif;
+    font-family: 'Comfortaa', cursive;
     background: linear-gradient(45deg, $primary-color, $secondary-color);
     padding: 40px;
 }
@@ -27,7 +27,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 150px;
+    padding-left: 130px;
     background: #fff;
 }
 
@@ -37,7 +37,7 @@ body{
     justify-content: center;
 
     img{
-        width: 75%;
+        width: 85%;
     }
 }
 
@@ -138,11 +138,11 @@ button{
 
 @media (max-width: 1350px){
     .login-left{
-        padding-left: 50px !important;
+        padding-left: 70px !important;
     }
     .login-form{
-        width: 100%;
-
+        width: 80%;
+        margin-bottom: 50px;
         &-footer{
             flex-direction: column;
             gap: 15px;
